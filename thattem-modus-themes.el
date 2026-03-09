@@ -39,13 +39,16 @@
 
 (defconst thattem-modus-themes-display-line-numbers-faces
   '(`(line-number
-      ((,c :weight thin)))
+      ((,c :foreground ,fg-dim
+           :background ,bg-dim
+           :weight thin)))
     `(line-number-major-tick
       ((,c :box (:line-width
                  (-6 . -6)
                  :color
                  ,thattem-major-line-box)
            :foreground ,thattem-major-line-fg
+           :background ,bg-dim
            :weight bold)))
     `(line-number-minor-tick
       ((,c :box (:line-width
@@ -53,6 +56,7 @@
                  :color
                  ,thattem-minor-line-box)
            :foreground ,thattem-minor-line-fg
+           :background ,bg-dim
            :weight normal))))
   "Faces of \\='display-line-numbers\\=' package used in \
 thattem-modus-themes.")
