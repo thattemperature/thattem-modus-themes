@@ -24,11 +24,15 @@
 
 (defconst thattem-modus-operandi-tinted-palette
   (thattem-modus-themes-generate-palette
-   '((space-box "#c9e6e6")
+   '((major-line-box "#e67ee6")
+     (major-line-fg "#a60000")
+     (minor-line-box "#6cd9d9")
+     (minor-line-fg "#0000a6")
+     (space-box "#c9e6e6")
      (tab-box "#e6e600")
      (error-space-box "#e60000")
      (error-space-bg "#ffd9b3")
-     (newline-fg "#CCB399")
+     (newline-fg "#ccb399")
      (empty-line-bg "#ddffcc")
      (missing-newline-bg "#ff99aa")))
   "The palette of \\='thattem-modus-operandi-tinted\\='.")

@@ -37,6 +37,26 @@
     (cdr it))
    palette))
 
+(defconst thattem-modus-themes-display-line-numbers-faces
+  '(`(line-number
+      ((,c :weight thin)))
+    `(line-number-major-tick
+      ((,c :box (:line-width
+                 (-6 . -6)
+                 :color
+                 ,thattem-major-line-box)
+           :foreground ,thattem-major-line-fg
+           :weight bold)))
+    `(line-number-minor-tick
+      ((,c :box (:line-width
+                 (-6 . -6)
+                 :color
+                 ,thattem-minor-line-box)
+           :foreground ,thattem-minor-line-fg
+           :weight normal))))
+  "Faces of \\='display-line-numbers\\=' package used in \
+thattem-modus-themes.")
+
 (defconst thattem-modus-themes-whitespace-faces
   '(
     `(whitespace-space
@@ -63,10 +83,12 @@
       ((,c :background ,thattem-empty-line-bg)))
     `(whitespace-missing-newline-at-eof
       ((,c :background ,thattem-missing-newline-bg))))
-  "Faces of whitespace package used in thattem-modus-themes.")
+  "Faces of \\='whitespace\\=' package used in thattem-modus-themes.")
 
 (defconst thattem-modus-themes-custom-faces
-  (append thattem-modus-themes-whitespace-faces)
+  (append
+   thattem-modus-themes-display-line-numbers-faces
+   thattem-modus-themes-whitespace-faces)
   "Faces used in thattem-modus-themes.")
 
 ;;;###autoload

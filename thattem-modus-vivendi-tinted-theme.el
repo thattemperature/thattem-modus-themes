@@ -24,7 +24,11 @@
 
 (defconst thattem-modus-vivendi-tinted-palette
   (thattem-modus-themes-generate-palette
-   '((space-box "#082a4d")
+   '((major-line-box "#995c99")
+     (major-line-fg "#bf4026")
+     (minor-line-box "#2f8c8c")
+     (minor-line-fg "#45a632")
+     (space-box "#082a4d")
      (tab-box "#084d08")
      (error-space-box "#800000")
      (error-space-bg "#4D3900")
