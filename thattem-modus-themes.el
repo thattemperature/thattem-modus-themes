@@ -57,6 +57,16 @@
   "Faces of \\='display-line-numbers\\=' package used in \
 thattem-modus-themes.")
 
+(defconst thattem-modus-themes-flymake-faces
+  '(
+    `(flymake-error
+      ((,c :background ,thattem-flymake-error-bg)))
+    `(flymake-warning
+      ((,c :background ,thattem-flymake-warning-bg)))
+    `(flymake-note
+      ((,c :background ,thattem-flymake-note-bg))))
+  "Faces of \\='flymake\\=' package used in thattem-modus-themes.")
+
 (defconst thattem-modus-themes-whitespace-faces
   '(
     `(whitespace-space
@@ -88,6 +98,7 @@ thattem-modus-themes.")
 (defconst thattem-modus-themes-custom-faces
   (append
    thattem-modus-themes-display-line-numbers-faces
+   thattem-modus-themes-flymake-faces
    thattem-modus-themes-whitespace-faces)
   "Faces used in thattem-modus-themes.")
 

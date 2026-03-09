@@ -24,7 +24,10 @@
 
 (defconst thattem-modus-vivendi-tinted-palette
   (thattem-modus-themes-generate-palette
-   '((major-line-box "#995c99")
+   '((flymake-error-bg "#863c6d")
+     (flymake-warning-bg "#415229")
+     (flymake-note-bg "#212d66")
+     (major-line-box "#995c99")
      (major-line-fg "#bf4026")
      (minor-line-box "#2f8c8c")
      (minor-line-fg "#45a632")

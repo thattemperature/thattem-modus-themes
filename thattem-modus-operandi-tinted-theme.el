@@ -24,7 +24,10 @@
 
 (defconst thattem-modus-operandi-tinted-palette
   (thattem-modus-themes-generate-palette
-   '((major-line-box "#e67ee6")
+   '((flymake-error-bg "#ffb9f3")
+     (flymake-warning-bg "#eeffcc")
+     (flymake-note-bg "#d9e6ff")
+     (major-line-box "#e67ee6")
      (major-line-fg "#a60000")
      (minor-line-box "#6cd9d9")
      (minor-line-fg "#0000a6")
