@@ -71,6 +71,53 @@ thattem-modus-themes.")
       ((,c :background ,thattem-flymake-note-bg))))
   "Faces of \\='flymake\\=' package used in thattem-modus-themes.")
 
+(defconst thattem-modus-themes-mode-line-faces
+  '(
+    `(thattem-mode-line/bright
+      ((,c :background ,thattem-mode-line-bright-bg
+           :foreground ,thattem-mode-line-dark-fg)))
+    `(thattem-mode-line/bright-2
+      ((,c :background ,thattem-mode-line-bright-bg-2
+           :foreground ,thattem-mode-line-dark-fg-2)))
+    `(thattem-mode-line/bright-inactive
+      ((,c :background ,thattem-mode-line-bright-inactive
+           :foreground ,thattem-mode-line-dark-inactive)))
+    `(thattem-mode-line/dark
+      ((,c :background ,thattem-mode-line-dark-bg
+           :foreground ,thattem-mode-line-bright-fg)))
+    `(thattem-mode-line/dark-2
+      ((,c :background ,thattem-mode-line-dark-bg-2
+           :foreground ,thattem-mode-line-bright-fg-2)))
+    `(thattem-mode-line/dark-inactive
+      ((,c :background ,thattem-mode-line-dark-inactive
+           :foreground ,thattem-mode-line-bright-inactive)))
+    `(thattem-mode-line/edge
+      ((,c :background ,thattem-mode-line-dark-bg
+           :foreground ,thattem-mode-line-bright-bg)))
+    `(thattem-mode-line/edge-2
+      ((,c :background ,thattem-mode-line-dark-bg-2
+           :foreground ,thattem-mode-line-bright-bg-2)))
+    `(thattem-mode-line/edge-reverse
+      ((,c :background ,thattem-mode-line-bright-bg
+           :foreground ,thattem-mode-line-dark-bg)))
+    `(thattem-mode-line/edge-2-reverse
+      ((,c :background ,thattem-mode-line-bright-bg-2
+           :foreground ,thattem-mode-line-dark-bg-2)))
+    `(thattem-mode-line/error
+      ((,c :background ,thattem-mode-line-bright-bg
+           :foreground ,thattem-mode-line-error-fg
+           :weight bold)))
+    `(thattem-mode-line/warning
+      ((,c :background ,thattem-mode-line-bright-bg
+           :foreground ,thattem-mode-line-warning-fg
+           :weight bold)))
+    `(thattem-mode-line/note
+      ((,c :background ,thattem-mode-line-bright-bg
+           :foreground ,thattem-mode-line-note-fg
+           :weight bold))))
+  "Faces of \\='thattem-mode-line\\=' package used in \
+thattem-modus-themes.")
+
 (defconst thattem-modus-themes-whitespace-faces
   '(
     `(whitespace-space
@@ -103,6 +150,7 @@ thattem-modus-themes.")
   (append
    thattem-modus-themes-display-line-numbers-faces
    thattem-modus-themes-flymake-faces
+   thattem-modus-themes-mode-line-faces
    thattem-modus-themes-whitespace-faces)
   "Faces used in thattem-modus-themes.")
 
