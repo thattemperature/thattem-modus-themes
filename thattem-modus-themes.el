@@ -118,6 +118,27 @@ thattem-modus-themes.")
   "Faces of \\='thattem-mode-line\\=' package used in \
 thattem-modus-themes.")
 
+(defconst thattem-modus-themes-tab-bar-faces
+  '(
+    `(thattem-tab-bar/face-1
+      ((,c :background ,thattem-tab-bar-dark
+           :foreground ,thattem-tab-bar-bright
+           :weight bold)))
+    `(thattem-tab-bar/face-2
+      ((,c :background ,thattem-tab-bar-bright
+           :foreground ,thattem-tab-bar-dark
+           :weight bold)))
+    `(thattem-tab-bar/highlight-face-1
+      ((,c :background ,thattem-tab-bar-dark
+           :foreground ,thattem-tab-bar-bright-h
+           :weight bold)))
+    `(thattem-tab-bar/highlight-face-2
+      ((,c :background ,thattem-tab-bar-bright
+           :foreground ,thattem-tab-bar-dark-h
+           :weight bold))))
+  "Faces of \\='thattem-tab-bar\\=' package used in \
+thattem-modus-themes.")
+
 (defconst thattem-modus-themes-whitespace-faces
   '(
     `(whitespace-space
@@ -151,6 +172,7 @@ thattem-modus-themes.")
    thattem-modus-themes-display-line-numbers-faces
    thattem-modus-themes-flymake-faces
    thattem-modus-themes-mode-line-faces
+   thattem-modus-themes-tab-bar-faces
    thattem-modus-themes-whitespace-faces)
   "Faces used in thattem-modus-themes.")
 
