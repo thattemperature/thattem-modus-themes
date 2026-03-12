@@ -1,7 +1,7 @@
 ;;; Thattem-modus-themes --- extended modus themes  -*- lexical-binding: t; -*-
 
 ;; Author: That Temperature <2719023332@qq.com>
-;; Package-Requires: (dash modus-themes)
+;; Package-Requires: ((dash "2.20.0") (modus-themes "5.2.0"))
 ;; URL: https://github.com/thattemperature/thattem-modus-themes
 
 ;; This program is free software: you can redistribute it and/or modify
