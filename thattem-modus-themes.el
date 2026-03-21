@@ -128,6 +128,12 @@ thattem-modus-themes.")
       ((,c :background ,thattem-tab-bar-bright
            :foreground ,thattem-tab-bar-dark
            :weight bold)))
+    `(thattem-tab-bar/thin-face-1
+      ((,c :background ,thattem-tab-bar-dark
+           :foreground ,thattem-tab-bar-bright)))
+    `(thattem-tab-bar/thin-face-2
+      ((,c :background ,thattem-tab-bar-bright
+           :foreground ,thattem-tab-bar-dark)))
     `(thattem-tab-bar/highlight-face-1
       ((,c :background ,thattem-tab-bar-dark
            :foreground ,thattem-tab-bar-bright-h
