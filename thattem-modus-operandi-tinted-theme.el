@@ -48,6 +48,8 @@
      (tab-bar-bright "#ebebeb")
      (tab-bar-dark-h "#c0d0f0")
      (tab-bar-bright-h "#ffffff")
+     (tab-bar-dark-w "#ff7800")
+     (tab-bar-bright-w "#ff7800")
      (space-box "#c9e6e6")
      (tab-box "#e6e600")
      (error-space-box "#e60000")

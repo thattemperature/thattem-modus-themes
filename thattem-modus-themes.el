@@ -141,6 +141,14 @@ thattem-modus-themes.")
     `(thattem-tab-bar/highlight-face-2
       ((,c :background ,thattem-tab-bar-bright
            :foreground ,thattem-tab-bar-dark-h
+           :weight bold)))
+    `(thattem-tab-bar/warning-face-1
+      ((,c :background ,thattem-tab-bar-dark
+           :foreground ,thattem-tab-bar-bright-w
+           :weight bold)))
+    `(thattem-tab-bar/warning-face-2
+      ((,c :background ,thattem-tab-bar-bright
+           :foreground ,thattem-tab-bar-dark-w
            :weight bold))))
   "Faces of \\='thattem-tab-bar\\=' package used in \
 thattem-modus-themes.")
