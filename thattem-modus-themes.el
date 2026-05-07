@@ -27,7 +27,8 @@
 (defgroup thattem-modus-themes nil
   "Extended modus themes."
   :group 'faces
-  :group 'modus-themes)
+  :group 'modus-themes
+  :group 'thattem)
 
 (defun thattem-modus-themes-generate-palette (palette)
   "Just add \"thattem-\" prefix to each symbol in PALETTE."
