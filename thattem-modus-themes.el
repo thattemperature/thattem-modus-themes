@@ -101,7 +101,7 @@ thattem-modus-themes.")
     `(thattem-mode-line/edge-reverse
       ((,c :background ,thattem-mode-line-bright-bg
            :foreground ,thattem-mode-line-dark-bg)))
-    `(thattem-mode-line/edge-2-reverse
+    `(thattem-mode-line/edge-reverse-2
       ((,c :background ,thattem-mode-line-bright-bg-2
            :foreground ,thattem-mode-line-dark-bg-2)))
     `(thattem-mode-line/error
