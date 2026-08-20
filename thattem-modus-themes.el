@@ -121,33 +121,33 @@ thattem-modus-themes.")
 
 (defconst thattem-modus-themes-tab-bar-faces
   '(
-    `(thattem-tab-bar/face-1
+    `(thattem-tab-bar/dark
       ((,c :background ,thattem-tab-bar-dark
            :foreground ,thattem-tab-bar-bright
            :weight bold)))
-    `(thattem-tab-bar/face-2
+    `(thattem-tab-bar/bright
       ((,c :background ,thattem-tab-bar-bright
            :foreground ,thattem-tab-bar-dark
            :weight bold)))
-    `(thattem-tab-bar/thin-face-1
+    `(thattem-tab-bar/dark-thin
       ((,c :background ,thattem-tab-bar-dark
            :foreground ,thattem-tab-bar-bright)))
-    `(thattem-tab-bar/thin-face-2
+    `(thattem-tab-bar/bright-thin
       ((,c :background ,thattem-tab-bar-bright
            :foreground ,thattem-tab-bar-dark)))
-    `(thattem-tab-bar/highlight-face-1
+    `(thattem-tab-bar/dark-highlight
       ((,c :background ,thattem-tab-bar-dark
            :foreground ,thattem-tab-bar-bright-h
            :weight bold)))
-    `(thattem-tab-bar/highlight-face-2
+    `(thattem-tab-bar/bright-highlight
       ((,c :background ,thattem-tab-bar-bright
            :foreground ,thattem-tab-bar-dark-h
            :weight bold)))
-    `(thattem-tab-bar/warning-face-1
+    `(thattem-tab-bar/dark-warning
       ((,c :background ,thattem-tab-bar-dark
            :foreground ,thattem-tab-bar-bright-w
            :weight bold)))
-    `(thattem-tab-bar/warning-face-2
+    `(thattem-tab-bar/bright-warning
       ((,c :background ,thattem-tab-bar-bright
            :foreground ,thattem-tab-bar-dark-w
            :weight bold))))
