@@ -1,7 +1,7 @@
 ;;; Thattem-modus-themes --- extended modus themes  -*- lexical-binding: t; -*-
 
 ;; Author: That Temperature <2719023332@qq.com>
-;; Package-Requires: ((dash "2.20.0") (modus-themes "5.2.0"))
+;; Package-Requires: ((modus-themes "5.2.0"))
 ;; URL: https://github.com/thattemperature/thattem-modus-themes
 
 ;; This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,6 @@
 
 ;;; Code:
 
-(require 'dash)
 (require 'modus-themes)
 
 (defgroup thattem-modus-themes nil
@@ -32,10 +31,11 @@
 
 (defun thattem-modus-themes-generate-palette (palette)
   "Just add \"thattem-\" prefix to each symbol in PALETTE."
-  (--map
-   (cons
-    (intern (concat "thattem-" (symbol-name (car it))))
-    (cdr it))
+  (mapcar
+   (lambda (item)
+     (cons
+      (intern (concat "thattem-" (symbol-name (car item))))
+      (cdr item)))
    palette))
 
 (defconst thattem-modus-themes-display-line-numbers-faces
