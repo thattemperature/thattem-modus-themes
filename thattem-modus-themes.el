@@ -127,7 +127,7 @@ thattem-modus-themes.")
            :weight bold)))
     `(thattem-tab-bar/bright
       ((,c :background ,thattem-tab-bar-bright
-           :foreground ,thattem-tab-bar-dark
+           :foreground ,thattem-tab-bar-dark-h
            :weight bold)))
     `(thattem-tab-bar/dark-thin
       ((,c :background ,thattem-tab-bar-dark
@@ -141,7 +141,7 @@ thattem-modus-themes.")
            :weight bold)))
     `(thattem-tab-bar/bright-highlight
       ((,c :background ,thattem-tab-bar-bright
-           :foreground ,thattem-tab-bar-dark-h
+           :foreground ,thattem-tab-bar-dark
            :weight bold)))
     `(thattem-tab-bar/dark-warning
       ((,c :background ,thattem-tab-bar-dark

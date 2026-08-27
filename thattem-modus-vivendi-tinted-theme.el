@@ -46,7 +46,7 @@
      (mode-line-note-fg "#009800")
      (tab-bar-dark "#784c74")
      (tab-bar-bright "#303030")
-     (tab-bar-dark-h "#d89cb4")
+     (tab-bar-dark-h "#9c7082")
      (tab-bar-bright-h "#000000")
      (tab-bar-dark-w "#ff7800")
      (tab-bar-bright-w "#ff7800")
