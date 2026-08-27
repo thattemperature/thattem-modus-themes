@@ -143,6 +143,14 @@ thattem-modus-themes.")
       ((,c :background ,thattem-tab-bar-bright
            :foreground ,thattem-tab-bar-dark
            :weight bold)))
+    `(thattem-tab-bar/dark-hover
+      ((,c :background ,thattem-tab-bar-dark-o
+           :foreground ,thattem-tab-bar-bright-o
+           :weight bold)))
+    `(thattem-tab-bar/bright-hover
+      ((,c :background ,thattem-tab-bar-bright-o
+           :foreground ,thattem-tab-bar-dark-o
+           :weight bold)))
     `(thattem-tab-bar/dark-warning
       ((,c :background ,thattem-tab-bar-dark
            :foreground ,thattem-tab-bar-bright-w

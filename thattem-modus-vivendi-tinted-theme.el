@@ -48,6 +48,8 @@
      (tab-bar-bright "#303030")
      (tab-bar-dark-h "#9c7082")
      (tab-bar-bright-h "#000000")
+     (tab-bar-dark-o "#9c7082")
+     (tab-bar-bright-o "#000000")
      (tab-bar-dark-w "#ff7800")
      (tab-bar-bright-w "#ff7800")
      (space-box "#082a4d")
