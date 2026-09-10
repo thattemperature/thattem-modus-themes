@@ -48,7 +48,7 @@
      (tab-bar-bright "#ebebeb")
      (tab-bar-dark-h "#c0d0f0")
      (tab-bar-bright-h "#ffffff")
-     (tab-bar-dark-o "#c0d0f0")
+     (tab-bar-dark-o "#a5c5e6")
      (tab-bar-bright-o "#ffffff")
      (tab-bar-dark-w "#ff7800")
      (tab-bar-bright-w "#ff7800")

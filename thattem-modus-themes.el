@@ -148,7 +148,7 @@ thattem-modus-themes.")
            :foreground ,thattem-tab-bar-bright-o
            :weight bold)))
     `(thattem-tab-bar/bright-hover
-      ((,c :background ,thattem-tab-bar-bright-o
+      ((,c :background ,thattem-tab-bar-bright
            :foreground ,thattem-tab-bar-dark-o
            :weight bold)))
     `(thattem-tab-bar/dark-warning
