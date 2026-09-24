@@ -59,7 +59,7 @@
            :foreground ,thattem-minor-line-fg
            :background ,bg-dim
            :weight normal))))
-  "Faces of \\='display-line-numbers\\=' package used in \
+  "Faces of `display-line-numbers' package used in \
 thattem-modus-themes.")
 
 (defconst thattem-modus-themes-flymake-faces
@@ -70,7 +70,7 @@ thattem-modus-themes.")
       ((,c :background ,thattem-flymake-warning-bg)))
     `(flymake-note
       ((,c :background ,thattem-flymake-note-bg))))
-  "Faces of \\='flymake\\=' package used in thattem-modus-themes.")
+  "Faces of `flymake' package used in thattem-modus-themes.")
 
 (defconst thattem-modus-themes-mode-line-faces
   '(
@@ -116,7 +116,7 @@ thattem-modus-themes.")
       ((,c :background ,thattem-mode-line-bright-bg
            :foreground ,thattem-mode-line-note-fg
            :weight bold))))
-  "Faces of \\='thattem-mode-line\\=' package used in \
+  "Faces of `thattem-mode-line' package used in \
 thattem-modus-themes.")
 
 (defconst thattem-modus-themes-tab-bar-faces
@@ -159,7 +159,7 @@ thattem-modus-themes.")
       ((,c :background ,thattem-tab-bar-bright
            :foreground ,thattem-tab-bar-dark-w
            :weight bold))))
-  "Faces of \\='thattem-tab-bar\\=' package used in \
+  "Faces of `thattem-tab-bar' package used in \
 thattem-modus-themes.")
 
 (defconst thattem-modus-themes-whitespace-faces
@@ -188,7 +188,7 @@ thattem-modus-themes.")
       ((,c :background ,thattem-empty-line-bg)))
     `(whitespace-missing-newline-at-eof
       ((,c :background ,thattem-missing-newline-bg))))
-  "Faces of \\='whitespace\\=' package used in thattem-modus-themes.")
+  "Faces of `whitespace' package used in thattem-modus-themes.")
 
 (defconst thattem-modus-themes-custom-faces
   (append

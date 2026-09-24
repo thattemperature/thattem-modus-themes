@@ -59,11 +59,11 @@
      (newline-fg "#ccb399")
      (empty-line-bg "#ddffcc")
      (missing-newline-bg "#ff99aa")))
-  "The palette of \\='thattem-modus-operandi-tinted\\='.")
+  "The palette of `thattem-modus-operandi-tinted'.")
 
 (defcustom thattem-modus-operandi-tinted-palette-overrides
   nil
-  "Overrides for \\='thattem-modus-operandi-tinted-palette\\='."
+  "Overrides for `thattem-modus-operandi-tinted-palette'."
   :type '(repeat (list symbol (choice symbol string)))
   :group 'thattem-modus-themes)
 
@@ -71,7 +71,7 @@
 (modus-themes-theme
  'thattem-modus-operandi-tinted
  'thattem-modus-themes
- "extended \\='modus-operandi-tinted-theme\\='."
+ "extended `modus-operandi-tinted-theme'."
  'light
  'modus-themes-operandi-tinted-palette
  'thattem-modus-operandi-tinted-palette
